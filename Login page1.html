@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Facebook Login</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: white;
+            font-family: Arial, sans-serif;
+        }
+
+        .main {
+            width: 100%;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .login-box {
+            width: 560px;
+            padding: 40px;
+            text-align: center;
+        }
+
+        h2 {
+            text-align: left;
+            font-size: 20px;
+            margin-bottom: 24px;
+            color: #1c1e21;
+        }
+
+        input {
+            width: 100%;
+            height: 64px;
+            padding: 0 18px;
+            margin-bottom: 14px;
+            border: 1px solid #ccd0d5;
+            border-radius: 16px;
+            font-size: 16px;
+        }
+
+        input:focus {
+            outline: none;
+            border: 2px solid #1877f2;
+        }
+        input:hover {
+            border: 2px solid #1877f2;
+        }
+
+        .login-btn {
+            width: 100%;
+            height: 48px;
+            margin-top: 10px;
+            background-color: #0866ff;
+            color: white;
+            border: none;
+            border-radius: 24px;
+            font-size: 16px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        .login-btn:hover {
+            background-color: #0757d5;
+        }
+
+        .forgot {
+            display: block;
+            margin: 26px 0;
+            color: #1c1e21;
+            text-decoration: none;
+            font-size: 16px;
+            font-weight: bold;
+        }
+
+        .forgot:hover {
+            text-decoration: underline;
+        }
+
+        .line {
+            border-top: 1px solid #dadde1;
+            margin: 25px 0;
+        }
+
+        .create-btn {
+            width: 100%;
+            height: 48px;
+            background-color: white;
+            color: #0866ff;
+            border: 1px solid #0866ff;
+            border-radius: 24px;
+            font-size: 16px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        .create-btn:hover {
+            background-color: #f0f6ff;
+        }
+
+    
+    </style>
+</head>
+
+<body>
+
+    <div class="main">
+
+        <form class="login-box">
+
+            <h2>Log in to Facebook</h2>
+
+            <input type="text" placeholder="Email address or mobile number">
+
+            <input type="password" placeholder="Password">
+
+            <button type="submit" class="login-btn">
+                Log in
+            </button>
+
+            <a href="#" class="forgot">
+                Forgotten password?
+            </a>
+
+            <div class="line"></div>
+
+            <button type="button" class="create-btn">
+                Create new account
+            </button>
+
+        </form>
+
+    </div>
+
+</body>
+</html>
